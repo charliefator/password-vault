@@ -1,5 +1,4 @@
 # imports
-
 import json
 
 # functions
@@ -31,6 +30,7 @@ while running == True:
     if selection == "a":
         new_username = input("Enter the username or email: ")
         new_password = input("Enter the password: ")
+
         add_login(new_username, new_password)
 
     elif selection == "l":
